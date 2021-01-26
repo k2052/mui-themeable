@@ -1,0 +1,21 @@
+* Dynamic Mui Themes From Images
+
+This is an example of how to create dynamic Material UI themes from images
+
+[[https://github.com/k2052/mui-themeable/blob/main/public/images/muiDynamicTheme.gif?raw=true]]
+
+** Usage 
+
+Clone it then install deps and run:
+
+#+begin_src sh
+npm install
+npm run dev
+#+end_src
+
+** How it works
+
+1. Colors are extracted via =node-vibrant= 
+2. Color palette is mapped to a mui palette
+
+All of this is in a single file in =pages/index.js=

@@ -4,16 +4,32 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "latest",
+    "@material-ui/icons": "latest",
     "clsx": "latest",
+    "colorable-dominant": "^1.1.1",
+    "get-best-contrast-color": "^0.3.1",
+    "is-dark-color": "^1.2.0",
+    "kea": "^2.0.0-beta.8",
     "next": "latest",
+    "next-redux-wrapper": "^6.0.2",
+    "node-vibrant": "^3.1.5",
     "prop-types": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "react-dropzone": "^11.0.3",
+    "react-file-drop": "^3.0.7",
+    "react-redux": "^7.2.1",
+    "redux": "^4.0.5",
+    "reselect": "^4.0.0",
+    "splashy": "^5.0.2"
   },
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start",
     "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  },
+  "devDependencies": {
+    "babel-plugin-kea": "^0.1.0"
   }
 }
